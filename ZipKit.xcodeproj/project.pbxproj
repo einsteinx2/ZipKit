@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5320F4D9162F3A9900E34E97 /* ZKDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B41109F64A0003E3F8B /* ZKDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4DA162F3A9900E34E97 /* ZKArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B35109F64A0003E3F8B /* ZKArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4DB162F3A9900E34E97 /* ZKDataArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B3F109F64A0003E3F8B /* ZKDataArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4DC162F3A9900E34E97 /* ZKFileArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B43109F64A0003E3F8B /* ZKFileArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4DD162F3A9900E34E97 /* ZKCDHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B37109F64A0003E3F8B /* ZKCDHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4DE162F3A9900E34E97 /* ZKCDTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B39109F64A0003E3F8B /* ZKCDTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4DF162F3A9900E34E97 /* ZKCDTrailer64.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B3B109F64A0003E3F8B /* ZKCDTrailer64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E0162F3A9900E34E97 /* ZKCDTrailer64Locator.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B3D109F64A0003E3F8B /* ZKCDTrailer64Locator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E1162F3A9900E34E97 /* ZKLFHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B45109F64A0003E3F8B /* ZKLFHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E2162F3A9900E34E97 /* ZKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B2F109F646B003E3F8B /* ZKLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E3162F3A9900E34E97 /* GMAppleDouble+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B0D109F6455003E3F8B /* GMAppleDouble+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E4162F3A9900E34E97 /* NSData+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B0F109F6455003E3F8B /* NSData+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E5162F3A9900E34E97 /* NSDate+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B11109F6455003E3F8B /* NSDate+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E6162F3A9900E34E97 /* NSDictionary+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B13109F6455003E3F8B /* NSDictionary+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E7162F3A9900E34E97 /* NSFileHandle+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B15109F6455003E3F8B /* NSFileHandle+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E8162F3A9900E34E97 /* NSFileManager+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B17109F6455003E3F8B /* NSFileManager+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4E9162F3A9900E34E97 /* NSString+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B19109F6455003E3F8B /* NSString+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4EA162F3A9900E34E97 /* GMAppleDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B08109F643D003E3F8B /* GMAppleDouble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5320F4EC162F3C0100E34E97 /* ZipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5320F4EB162F3C0100E34E97 /* ZipKit.h */; };
+		5320F4ED162F3C0200E34E97 /* ZipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5320F4EB162F3C0100E34E97 /* ZipKit.h */; };
+		5320F4EE162F3C0200E34E97 /* ZipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5320F4EB162F3C0100E34E97 /* ZipKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB9B9A24109F63AC003E3F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
 		CB9B9B0B109F643D003E3F8B /* GMAppleDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9B9B08109F643D003E3F8B /* GMAppleDouble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB9B9B0C109F643D003E3F8B /* GMAppleDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B9B09109F643D003E3F8B /* GMAppleDouble.m */; };
@@ -91,6 +112,7 @@
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* ZipKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipKit_Prefix.pch; sourceTree = "<group>"; };
+		5320F4EB162F3C0100E34E97 /* ZipKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipKit.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* ZipKitFW-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZipKitFW-Info.plist"; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* ZipKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9B9B07109F643D003E3F8B /* COPYING.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.TXT; sourceTree = "<group>"; };
@@ -188,6 +210,7 @@
 			children = (
 				CB9B9B61109F64D3003E3F8B /* COPYING.TXT */,
 				CB9B9B62109F64D3003E3F8B /* Credits.html */,
+				5320F4EB162F3C0100E34E97 /* ZipKit.h */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -350,6 +373,7 @@
 				CB9B9B53109F64A0003E3F8B /* ZKDefs.h in Headers */,
 				CB9B9B55109F64A0003E3F8B /* ZKFileArchive.h in Headers */,
 				CB9B9B57109F64A0003E3F8B /* ZKLFHeader.h in Headers */,
+				5320F4EC162F3C0100E34E97 /* ZipKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +381,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5320F4ED162F3C0200E34E97 /* ZipKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +389,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5320F4EE162F3C0200E34E97 /* ZipKit.h in Headers */,
+				5320F4D9162F3A9900E34E97 /* ZKDefs.h in Headers */,
+				5320F4DA162F3A9900E34E97 /* ZKArchive.h in Headers */,
+				5320F4DB162F3A9900E34E97 /* ZKDataArchive.h in Headers */,
+				5320F4DC162F3A9900E34E97 /* ZKFileArchive.h in Headers */,
+				5320F4DD162F3A9900E34E97 /* ZKCDHeader.h in Headers */,
+				5320F4DE162F3A9900E34E97 /* ZKCDTrailer.h in Headers */,
+				5320F4DF162F3A9900E34E97 /* ZKCDTrailer64.h in Headers */,
+				5320F4E0162F3A9900E34E97 /* ZKCDTrailer64Locator.h in Headers */,
+				5320F4E1162F3A9900E34E97 /* ZKLFHeader.h in Headers */,
+				5320F4E2162F3A9900E34E97 /* ZKLog.h in Headers */,
+				5320F4E3162F3A9900E34E97 /* GMAppleDouble+ZKAdditions.h in Headers */,
+				5320F4E4162F3A9900E34E97 /* NSData+ZKAdditions.h in Headers */,
+				5320F4E5162F3A9900E34E97 /* NSDate+ZKAdditions.h in Headers */,
+				5320F4E6162F3A9900E34E97 /* NSDictionary+ZKAdditions.h in Headers */,
+				5320F4E7162F3A9900E34E97 /* NSFileHandle+ZKAdditions.h in Headers */,
+				5320F4E8162F3A9900E34E97 /* NSFileManager+ZKAdditions.h in Headers */,
+				5320F4E9162F3A9900E34E97 /* NSString+ZKAdditions.h in Headers */,
+				5320F4EA162F3A9900E34E97 /* GMAppleDouble.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,7 +713,9 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = touchzipkit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/ZipKit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -687,7 +733,9 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = touchzipkit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/ZipKit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
 			};
