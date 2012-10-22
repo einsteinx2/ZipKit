@@ -12,8 +12,13 @@
 @interface ZKArchive : NSObject {
 @private
 	// invoker should be an NSOperation or NSThread; if [invoker isCancelled], inflation or deflation will be aborted
-	id __weak _invoker;
-	id __weak _delegate;
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_5_0
+	id __unsafe_unretained _invoker;
+    id __unsafe_unretained _delegate;
+#else
+    id __weak _invoker;
+    id __weak _delegate;
+#endif
 	NSString *_archivePath;
 	NSMutableArray *_centralDirectory;
 	NSFileManager *_fileManager;
