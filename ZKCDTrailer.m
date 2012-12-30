@@ -131,8 +131,8 @@
 }
 
 - (NSString *) description {
-	return [NSString stringWithFormat:@"%u entries (%qu bytes) @: %qu",
-			self.totalNumberOfCentralDirectoryEntries,
+	return [NSString stringWithFormat:@"%lu entries (%qu bytes) @: %qu",
+			(unsigned long)self.totalNumberOfCentralDirectoryEntries,
 			self.sizeOfCentralDirectory,
 			self.offsetOfStartOfCentralDirectory];
 }

@@ -52,7 +52,7 @@
 	NSUInteger i = 2;
 	NSFileManager *fm = [[NSFileManager new] autorelease];
 	while ([fm fileExistsAtPath:uniquePath]) {
-		uniquePath = [dir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@ %u", fileNameBase, i++]];
+		uniquePath = [dir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@ %lu", fileNameBase, (unsigned long)(i++)]];
 		if (ext && [ext length] > 0)
 			uniquePath = [uniquePath stringByAppendingPathExtension:ext];
 	}
@@ -82,7 +82,7 @@
 	NSUInteger i = 1;
 	while ([self.fileManager fileExistsAtPath:expansionDirectory]) {
 		expansionDirectory = [enclosingFolder stringByAppendingPathComponent:
-							  [NSString stringWithFormat:@"%@ %u", ZKExpansionDirectoryName, i++]];
+							  [NSString stringWithFormat:@"%@ %lu", ZKExpansionDirectoryName, (unsigned long)(i++)]];
 	}
 	return expansionDirectory;
 }
@@ -97,8 +97,8 @@
 			NSUInteger i = 2;
 			while ([self.fileManager fileExistsAtPath:dest]) {
 				NSString *ext = [item pathExtension];
-				dest = [enclosingFolder stringByAppendingPathComponent:[NSString stringWithFormat:@"%@ %u",
-																		[item stringByDeletingPathExtension], i++]];
+				dest = [enclosingFolder stringByAppendingPathComponent:[NSString stringWithFormat:@"%@ %lu",
+																		[item stringByDeletingPathExtension], (unsigned long)(i++)]];
 				if (ext && [ext length] > 0)
 					dest = [dest stringByAppendingPathExtension:ext];
 			}
