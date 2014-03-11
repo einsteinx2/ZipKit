@@ -105,7 +105,6 @@
 		CB9B9D00109F6795003E3F8B /* NSFileManager+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B9B18109F6455003E3F8B /* NSFileManager+ZKAdditions.m */; };
 		CB9B9D01109F6796003E3F8B /* NSString+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B9B1A109F6455003E3F8B /* NSString+ZKAdditions.m */; };
 		CB9B9D08109F67E2003E3F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9B9D07109F67E2003E3F8B /* Foundation.framework */; };
-		CB9B9D88109F67FF003E3F8B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9B9D87109F67FF003E3F8B /* libz.dylib */; };
 		CB9B9E3C109F6B72003E3F8B /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B9B30109F646B003E3F8B /* ZKLog.m */; };
 /* End PBXBuildFile section */
 
@@ -188,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9B9D08109F67E2003E3F8B /* Foundation.framework in Frameworks */,
-				CB9B9D88109F67FF003E3F8B /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +471,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ZipKit" */;
 			compatibilityVersion = "Xcode 3.2";
