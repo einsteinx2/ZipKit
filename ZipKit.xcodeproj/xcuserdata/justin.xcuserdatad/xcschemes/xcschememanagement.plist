@@ -12,12 +12,12 @@
 		<key>touchzipkit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>9</integer>
 		</dict>
 		<key>zipkit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
