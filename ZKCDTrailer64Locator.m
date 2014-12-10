@@ -42,10 +42,10 @@
 }
 
 - (NSData *) data {
-	NSMutableData *data = [NSMutableData zk_dataWithLittleInt32:self.magicNumber];
-	[data zk_appendLittleInt32:self.diskNumberWithStartOfCentralDirectory];
+	NSMutableData *data = [NSMutableData zk_dataWithLittleInt32:(UInt32)self.magicNumber];
+	[data zk_appendLittleInt32:(UInt32)self.diskNumberWithStartOfCentralDirectory];
 	[data zk_appendLittleInt64:self.offsetOfStartOfCentralDirectoryTrailer64];
-	[data zk_appendLittleInt32:self.numberOfDisks];
+	[data zk_appendLittleInt32:(UInt32)self.numberOfDisks];
 	return data;
 }
 

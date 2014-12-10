@@ -298,15 +298,15 @@
 					bytesRead = [deflatedData length];
 					totalBytesRead += bytesRead;
 					if (bytesRead > 0 && totalBytesRead <= cdHeader.compressedSize) {
-						strm.avail_in = bytesRead;
+						strm.avail_in = (uint)bytesRead;
 						strm.next_in = (Bytef *)[deflatedData bytes];
 						do {
-							strm.avail_out = chunkSize;
+							strm.avail_out = (uint)chunkSize;
 							strm.next_out = out;
 							ret = inflate(&strm, Z_SYNC_FLUSH);
 							if (ret != Z_STREAM_ERROR) {
 								have = (chunkSize - strm.avail_out);
-								crc = crc32(crc, out, have);
+								crc = crc32(crc, out, (uint)have);
 								[inflatedFile writeData:[NSData dataWithBytesNoCopy:out length:have freeWhenDone:NO]];
 								bytesWritten += have;
 							} else
@@ -535,7 +535,7 @@
 				[pool drain];
 				pool = [NSAutoreleasePool new];
 				fileData = [file readDataOfLength:ZKZipBlockSize];
-				strm.avail_in = [fileData length];
+				strm.avail_in = (uint)[fileData length];
 				bytesWritten += strm.avail_in;
 				flush = Z_FINISH;
 				if (strm.avail_in > 0) {
@@ -544,9 +544,9 @@
 					crc = crc32(crc, strm.next_in, strm.avail_in);
 				}
 				do {
-					strm.avail_out = ZKZipBlockSize;
+					strm.avail_out = (uint)ZKZipBlockSize;
 					strm.next_out = out;
-					ret = deflate(&strm, flush);
+					ret = deflate(&strm, (uint)flush);
 					if (ret != Z_STREAM_ERROR) {
 						have = (ZKZipBlockSize - strm.avail_out);
 						compressedSize += have;
