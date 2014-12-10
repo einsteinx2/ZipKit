@@ -710,7 +710,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				PUBLIC_HEADERS_FOLDER_PATH = include/ZipKit;
 				SDKROOT = iphoneos;
@@ -728,7 +727,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				PUBLIC_HEADERS_FOLDER_PATH = include/ZipKit;
 				SDKROOT = iphoneos;
